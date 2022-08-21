@@ -1,0 +1,87 @@
+.app{
+	height: 600px; 
+	width: 70%;
+	margin: 50px 0;
+	display: flex;
+}
+.wrapper{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+.sidebar{
+	height: 100%;
+	width: 30%;
+	background-color: #FFFFFF;
+	border-right: 1px solid #D8D8D8;
+}
+.main{
+	height: 100%;
+	width: 70%;
+	padding-left: 38.24px;
+}
+.category{
+	color: black;
+	margin-bottom: 30px;
+}
+.category-selected{
+	font-weight: 700;
+}
+.categories{
+ list-style: none;
+}
+.add{
+	color: #ABABAB;
+	text-decoration: none;
+}
+.input{
+	background-color: #E1DEDE;
+	border: none;
+	padding: 11px 20px;
+	width: 70%;
+}
+.title{
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0;
+	margin-bottom: 28px; 
+}
+.task:checked+label{
+	color: #EB5757;
+	text-decoration-line: line-through;
+}
+.task+label{
+	color: #000000;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 36px;
+}
+ul{
+	list-style: none;
+}
+.oval{
+	border-radius: 40px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #FFFFFF;
+	padding: 9px 20px;
+	margin-left: 16px;
+}
+.groceries{
+	background-color: #27AE60;
+}
+.sports{
+	background-color: #9B51E0;
+}
+.work{
+	background-color: #2F80ED;
+}
+.study{
+	background-color: #F2994A;
+}
