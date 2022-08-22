@@ -1,33 +1,63 @@
+
 body{
 	padding: 90px;
 	background: url('Elements/Nice_n1.jpg') 0 0/ cover no-repeat fixed;
-	height: 1300px;
 }
-.block{
-
+.block_parent{
+	display: flex;
+	margin: 50px 20%;
 }
 .audio{
 
 }
-p{
+.verse{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	text-shadow: 1px 1px 1px #181A34;
-	line-height: 20px
-	
+	line-height: 20px;
 }
 h1{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	line-height: 40px;
 }
-img{
-	box-sizing: border-box;
-	width: 25em;
-	display: inline-block;
-	margin: 100px 350px 0px;
-	border-radius: 20px;
-}
 .text{
 	font-size: 20px;
+	margin: 0 28% 0 0;
+	padding-top: 30px; 
+	line-height: 30px;
+	text-shadow: -0 -1px 0 #9807F9;
+}
+.picture1{
+	border-radius: 20px;
+	float: left;
+	margin: 0px 10px 5px 0px;
+	width: 380px;
+}
+.parent_card{
+	margin: 50px 0px 400px 20%;
+}
+.parent_card2{
+	margin: 50px 20%;
+}
+.picture2{
+	width: 300px;
+	margin:0;
+	float: right;
+	border-radius: 10px;
+}
+.text2{
+	margin:0 0 0 12%;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: -0 -1px 0 #9807F9;
+}
+.parent_card3{
+
+}
+.text3{
+
+}
+.pocture3{
+	
 }
