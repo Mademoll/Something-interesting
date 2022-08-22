@@ -8,7 +8,8 @@ body{
 	margin: 50px 20%;
 }
 .audio{
-
+	display: block;
+	margin: 0 auto;
 }
 .verse{
 	font-family: 'Montserrat', sans-serif;
