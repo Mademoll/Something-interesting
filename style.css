@@ -35,7 +35,7 @@ h1{
 	width: 380px;
 }
 .parent_card{
-	margin: 50px 0px 400px 20%;
+	margin: 50px 0px 100px 20%;
 }
 .parent_card2{
 	margin: 50px 20%;
@@ -46,18 +46,40 @@ h1{
 	float: right;
 	border-radius: 10px;
 }
+.sticker_glad_cat{
+	width: 150px;
+	margin: 60px 10px 0 220px;
+}
 .text2{
-	margin:0 0 0 12%;
+	margin:-30px 0 0 12%;
 	font-size: 20px;
 	line-height: 30px;
 	text-shadow: -0 -1px 0 #9807F9;
 }
 .parent_card3{
+	margin: 90px 16%;
+	display: flex;
 
 }
 .text3{
-
+	margin:-30px 0 0 3%;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: -0 -1px 0 #9807F9;
 }
-.pocture3{
-	
+.picture3{
+	width: 400px;
+	margin: -50px 0 0 0; 
+	border-radius: 10px;
+}
+.sticker_heart_eyes{
+	width: 200px;
+	margin: 100px 0 0 100px;
+}
+.sticker_bear{
+	display: block;
+	width: 100px;
+}
+.sticker_bear_block{
+	margin: 0 0 0 65%;
 }
